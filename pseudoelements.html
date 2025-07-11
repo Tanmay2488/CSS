@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /*adds content before the paragraph*/
+    p::before {
+      content: "Note: ";
+      font-weight: bold;
+      color: red;
+    }
+    /*adds content after the paragraph*/
+    p::after {
+      content: " - End of note.";
+      font-style: italic;
+      color: blue;
+    }
+    /*style first line*/
+    p::first-line {
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Pseudo-elements Example</h1>
+  <p>This paragraph demonstrates the use of pseudo-elements in CSS. The content before and after the paragraph is added using ::before and ::after, respectively. The first line of the paragraph is styled differently using ::first-line.</p>
+  <p>CSS pseudo-elements allow you to style specific parts of an element, such as the first line or adding content before or after an element.</p>
+    <h2>CSS Pseudo-elements</h2>
+    <p>CSS pseudo-elements are used to style specific parts of an element.</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .box{
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      transform: rotate(45deg);
+      transition: transform 0.5s ease;
+      margin:50px auto;
+      text-align: center;
+      line-height: 200px;
+      font-size: 20px;   
+      font-weight: bold;
+
+    }
+    .box:hover {
+      transform: scale(1.2) rotate(1000000deg) translateY(-10px);
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Transform Example</h1>
+  <div class="box">Hover me!</div>
+  <p>Hover over the box to see the transform effect.</p>
+  <p>The box rotates and scales up when hovered.</p>
+</body>
+</html>
